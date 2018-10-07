@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>${product1.getpName()} Inserted Successfully </h1>
+	<a href="/FrontEndProject/listview">Click Here to List all the Products</a>
 </body>
 </html>

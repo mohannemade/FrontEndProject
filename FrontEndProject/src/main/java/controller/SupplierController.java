@@ -28,7 +28,7 @@ public class SupplierController {
 	}
 	
 	@RequestMapping(value="/addsupplierpage", method=RequestMethod.GET)
-	public String getAddSupplier()
+	public String addSupplierPage()
 	{
 		return "addsupplier";
 	}

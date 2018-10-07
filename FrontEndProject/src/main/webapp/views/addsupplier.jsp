@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Inserted Successfully </h1>
+
+<form action = "/FrontEndProject/addsupplier" method="post">
+
+Supplier Name: <input type="text" name="sName"/>
+<input type="submit" value="Add Supplier"/>
+
+</form>
+
 </body>
 </html>

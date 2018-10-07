@@ -13,7 +13,7 @@ import model.ProductDAO;
 @Controller
 public class ProductController {
 
-	@RequestMapping(value="/",method=RequestMethod.GET)
+	@RequestMapping(value="/productpage",method=RequestMethod.GET)
 	public String productsPage() {
 		return "product";
 	}

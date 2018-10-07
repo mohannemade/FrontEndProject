@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Inserted Successfully </h1>
+<h1>Supplier Page</h1>
+<a href="/FrontEndProject/productpage">Add Products</a>
+<a href="/FrontEndProject/listview">Click Here to List all the Products</a>
 </body>
 </html>

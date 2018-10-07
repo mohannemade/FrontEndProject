@@ -16,7 +16,7 @@
   $(document).ready( function () {
 	  	
 	  	$.ajax({
-	  		url: '/FrontEndProject/products',
+	  		url: '${pageContext.request.contextPath}/products',
 	  		method: 'get',
 	  		dataType: 'json',
 	  		success: function (data){

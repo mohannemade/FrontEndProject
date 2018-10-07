@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="/FrontEndProject/success" method="post">
+<form action="${pageContext.request.contextPath}/success" method="post">
 
 Product Name: <input type="text" name="pName"/>
 Product Cost: <input type="text" name="pCost"/>

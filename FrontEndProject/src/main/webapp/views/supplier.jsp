@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Supplier Page</h1>
-<a href="/FrontEndProject/productpage">Add Products</a>
-<a href="/FrontEndProject/listview">Click Here to List all the Products</a>
+<a href="${pageContext.request.contextPath}/productpage">Add Products</a>
+<a href="${pageContext.request.contextPath}/listview">Click Here to List all the Products</a>
 </body>
 </html>

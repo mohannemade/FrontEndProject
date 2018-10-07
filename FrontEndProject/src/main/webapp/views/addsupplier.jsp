@@ -8,12 +8,11 @@
 </head>
 <body>
 
-<form action = "/FrontEndProject/addsupplier" method="post">
+<form action = "${pageContext.request.contextPath}/addsupplier" method="post">
 
 Supplier Name: <input type="text" name="sName"/>
 <input type="submit" value="Add Supplier"/>
 
 </form>
-
 </body>
 </html>

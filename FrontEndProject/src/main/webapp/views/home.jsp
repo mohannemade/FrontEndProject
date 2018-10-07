@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/FrontEndProject/supplier">Supplier page</a>
+<a href="${pageContext.request.contextPath}/supplier">Supplier page</a>
 
-<a href="/FrontEndProject/addsupplierpage">Add Supplier</a>
+<a href="${pageContext.request.contextPath}/addsupplierpage">Add Supplier</a>
 
 </body>
 </html>

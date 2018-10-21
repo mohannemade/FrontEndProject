@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
+	 
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Supplier Page</h1>
-<a href="${pageContext.request.contextPath}/productpage">Add Products</a>
-<a href="${pageContext.request.contextPath}/listview">Click Here to List all the Products</a>
+
+	<h1>Supplier Page</h1>
 </body>
 </html>

@@ -12,4 +12,24 @@ public class HomeController {
 	{
 		return "home";
 	}
+	
+	@RequestMapping(value="/error")
+	public String error()
+	{
+		return "login";
+	}
+	
+	@RequestMapping(value="/login")
+	public String login()
+	{
+		return "login";
+	}
+	
+	@RequestMapping(value="/logout")
+	public String logout()
+	{
+		return "logout";
+	}
+	
+	
 }
